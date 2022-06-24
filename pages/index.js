@@ -1,6 +1,8 @@
 import Head from 'next/head';
 import Layout, { siteTitle } from '../components/layout';
 import utilStyles from '../styles/utils.module.css';
+import styles from '../styles/alert.module.css';
+import cn from 'classnames'; 
 
 
 
@@ -19,5 +21,9 @@ export default function Home() {
         </p>
       </section>
     </Layout>
+    
   );
+  
 }
+
+

@@ -1,10 +1,10 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import styles from './layout.module.css';
+import styles from './layout.module.css'; 
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 
-const name = 'ISac Renovato';
+const name = 'Isac Renovato';
 export const siteTitle = 'Next.js ejemplo simple Website';
 
 export default function Layout({children, home }){

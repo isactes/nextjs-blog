@@ -1,8 +1,14 @@
+/*@tailwind base;
+@tailwind components;
+@tailwind utilities;*/
+
 :root{
     --white: #fff;
     --black: #000;
     --pink: #E82AE6;
 }
+
+
 
 
 html,
