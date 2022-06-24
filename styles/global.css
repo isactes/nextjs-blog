@@ -1,0 +1,33 @@
+:root{
+    --white: #fff;
+    --black: #000;
+    --pink: #E82AE6;
+}
+
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.6;
+    font-size: 20px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    color: var(--pink);
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
