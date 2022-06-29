@@ -1,8 +1,3 @@
 export default function handler(req, res) {
-    // ....
-    res.setPreviewData({})
-    // ...
-
-    //res.redirect()
-    res.end('Preview mode enabled')
+    res.status(200).json({ text: 'Hello' });
 }
